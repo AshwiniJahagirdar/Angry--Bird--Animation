@@ -8,7 +8,7 @@ class Bird extends Baseclass{
         World.add(world,this.body);*/
 
         super(x,y,70,75);
-        this.image = loadImage("sprites/bird.png");
+        this.image = loadImage("bird.png");
     }
     display()
 
