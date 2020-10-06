@@ -9,7 +9,7 @@ class Box extends Baseclass{
         World.add(world,this.body);*/
 
         super(x,y,width,height);
-        this.image = loadImage ("sprites/wood1.png")
+        this.image = loadImage ("wood1.png")
     }
     display()
     {
