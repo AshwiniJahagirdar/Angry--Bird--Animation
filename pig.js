@@ -8,7 +8,7 @@ class Pig extends Baseclass{
         World.add(world,this.body);*/
 
         super(x,y,70,75);
-        this.image =loadImage("sprites/pig.png");
+        this.image =loadImage("pig.png");
 
     }
     display()
