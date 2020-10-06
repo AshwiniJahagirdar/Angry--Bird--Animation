@@ -6,7 +6,7 @@ var engine, world;
 var sky;
 
 function preload(){
-sky = loadImage("sprites/bg.png");
+sky = loadImage("bg.png");
 }
 
 
