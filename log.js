@@ -10,7 +10,7 @@ class Log extends Baseclass{
         World.add(world,this.body);*/
 
         super(x,y,20,height,angle);
-        this.image=loadImage("sprites/wood2.png");
+        this.image=loadImage("wood2.png");
         Matter.Body.setAngle(this.body,angle);
     }
     display()
